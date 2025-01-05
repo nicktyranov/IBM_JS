@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+#game-container {
+    background-color: white;
+    display: grid;
+    max-width: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    padding: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: grey;
+
+}
